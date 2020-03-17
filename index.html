@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="index.css">
+  <title>Project Restoration - Majora's Mask 3D patch to get the best of MM and MM3D</title>
+</head>
+
+<body>
+  <header class="masthead">
+    <img class="masthead-bg" src="assets/img/header_2x.jpg" srcset="assets/img/header_1x.jpg 960w, assets/img/header_2x.jpg 2x, assets/img/header_2x.jpg 1920w, assets/img/header_4x.jpg 3840w">
+    <div class="masthead-text">
+      <div class="container h-100">
+        <div class="row h-100 align-items-center">
+          <div class="col-12 text-center">
+            <h1>Project Restoration</h1>
+            <h2>A <i>Majora's Mask 3D</i> patch to get the best of MM and MM3D</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <article id="main">
+    <section class="container">
+      <p><i>Project Restoration</i> is a patch for <i>Majora's Mask 3D</i> that restores some mechanics from the
+        original <i>Majora's Mask</i> and also adds quality-of-life improvements and fixes to make the game more
+        enjoyable.
+      </p>
+    </section>
+
+    <section id="features" class="container">
+      <h2>Features</h2>
+      <section class="row mb-4">
+        <div class="col-sm-2">
+          <img src="assets/img/zora_link.png" class="img-fluid" alt="Mikau playing his guitar. Wait, no, that's Link!">
+        </div>
+        <div class="col-sm-10">
+          <h3>Fixed Zora Link</h3>
+          <p class="lead">Swim gracefully like a Zora without having to use magic</p>
+          <ul>
+            <li>Fast swim is the default way of swimming and no longer requires magic.</li>
+            <li>Slow swim is still available. Press Up/Down on the D-Pad to <em>toggle</em> between fast swim and slow
+              swim.
+              You can also <em>hold</em> ZL to swim slowly.</li>
+          </ul>
+        </div>
+      </section>
+      <section class="row mb-4">
+        <div class="col-sm-2">
+          <img src="assets/img/deku_link.png" class="img-fluid" alt="Deku Link">
+        </div>
+        <div class="col-sm-10">
+          <h3>Fixed Deku Link</h3>
+          <p class="lead">Fixed water hopping</p>
+          <ul>
+            <li>Deku Link's acceleration reduction is reverted to fix the water hopping mechanic.</li>
+            <li>In the unpatched game, hopping is very slow even when spinning as a side effect of the acceleration
+              change.</li>
+          </ul>
+        </div>
+      </section>
+      <section class="row mb-4">
+        <div class="col-sm-2">
+          <img src="assets/img/dpad.png" class="img-fluid" alt="Transformation masks usable with the D-Pad">
+        </div>
+        <div class="col-sm-10">
+          <h3>Fast Transform</h3>
+          <p class="lead">Transform without having to equip items for a more streamlined gameplay</p>
+          <ul>
+            <li>Use the D-Pad to transform (<em>Left</em>: Zora, <em>Up</em>:
+              Goron, <em>Down</em>: Deku, <em>Right</em>: Fierce Deity)</li>
+            <li>This frees up as many as 4 buttons!</li>
+          </ul>
+        </div>
+      </section>
+      <section class="row mb-4">
+        <div class="col-sm-2">
+          <img src="assets/img/bombers_notebook.png" class="img-fluid" alt="Bomber's Notebook">
+        </div>
+        <div class="col-sm-10">
+          <h3>More Fluid Bomber's Notebook</h3>
+          <p class="lead">Less annoyingly slow popups and transitions</p>
+          <p>The Bomber's Notebook screen updates instantly when it is opened instead of waiting for 1.8 seconds just
+            before starting the "new" text animation, followed by another 1.18s pause and yet another 1.56s delay until
+            the main text box appears. <b>It all adds up.</b></p>
+        </div>
+      </section>
+      <section class="row mb-4">
+        <div class="col-sm-2">
+          <img src="assets/img/oot.png" class="img-fluid" alt="Ocarina of Time">
+        </div>
+        <div class="col-sm-10">
+          <h3>Optional Song of Time Saving</h3>
+          <p class="lead">For the classic <i>Majora's Mask</i> experience</p>
+          <p>You can optionally save the game after playing the Song of Time. Players will be greeted with the iconic
+            <em>Dawn of the First Day</em> screen after loading a Song of Time save, just like in the original game.</p>
+        </div>
+      </section>
+      <section class="row mb-4">
+        <div class="col-sm-2">
+          <img src="assets/img/oot.png" class="img-fluid" style="transform: rotate(180deg)" alt="Ocarina of Time">
+        </div>
+        <div class="col-sm-10">
+          <h3>More Potent Inverted Song of Time</h3>
+          <p class="lead">Slow time to 1/3 speed (just like the original)</p>
+          <p>In MM3D, the ISoT only slows time to 1/2 speed rather than 1/3 &mdash; likely an oversight. This patch
+            fixes the regression, making some glitchless challenge runs possible again and giving the player more time
+            in a three-day cycle.</p>
+        </div>
+      </section>
+      <section class="row mb-4">
+        <div class="col-sm-2">
+          <img src="assets/img/gyorg.png" class="img-fluid" alt="Gyorg">
+        </div>
+        <div class="col-sm-10">
+          <h3>Improved Bosses</h3>
+          <p class="lead">Tweaks</p>
+          <ul>
+            <li>Removes the newly added giant eyeballs from Odolwa, Goht and Gyorg. They don't add much.</li>
+            <li>Balances Odolwa's AI and attacks to improve gameplay.</li>
+            <li>Fixes a game bug that caused Odolwa to be invulnerable to attacks and block excessively.</li>
+          </ul>
+          <p class="lead">More fun with Twinmold</p>
+          <ul>
+            <li>Reduces the number of cycles to make it less repetitive.</li>
+            <li>Red Twinmold no longer resets its hit counter every time it burrows back into the sand. This makes the
+              boss battle much less confusing.</li>
+          </ul>
+        </div>
+      </section>
+      <section class="row mb-4">
+        <div class="col-sm-2">
+          <img src="assets/img/ice_arrow.png" class="img-fluid" alt="A magnificent Ice Arrow">
+        </div>
+        <div class="col-sm-10">
+          <h3>Restored Ice Arrows</h3>
+          <p class="lead">Ice arrows that work in more locations</p>
+          <ul>
+            <li>Ice arrows work everywhere in Great Bay Temple, not just in Gyorg's room. This gives the player more
+              freedom to experiment with ice arrows. They also work in several other areas outside the temple, just like
+              in the original game.</li>
+            <li>Removes the sparkling water effects as they are an insult to the player's intelligence.</li>
+          </ul>
+        </div>
+      </section>
+      <section class="row mb-4">
+        <div class="col-sm-2">
+          <img src="assets/img/arrows.png" class="img-fluid" alt="A Fire Arrow, Ice Arrow and Light Arrow">
+        </div>
+        <div class="col-sm-10">
+          <h3>Button Tweaks for Controller Players</h3>
+          <p class="lead">Additional, optional bindings to make the game easier to play on a controller</p>
+          <div class="row">
+            <div class="col-sm-6">
+              <ul>
+                <li>Switch between <b>arrow types</b>: ZL</li>
+                <li><b>Ocarina of Time</b>: ZR+A</li>
+                <li><b>Pictograph Box</b>: ZL</li>
+                <li><b>I item</b>: ZR+X</li>
+                <li><b>II item</b>: ZR+Y</li>
+                <li>You can now assign items to I and II with a single press.</li>
+              </ul>
+            </div>
+            <div class="col-sm-6">
+              <ul>
+                <li><b>Items</b>: START</li>
+                <li><b><em>Bomber's Notebook</em></b>: SELECT</li>
+                <li><b>Gears</b>: ZR+START</li>
+                <li><b>Map</b>: ZR+SELECT</li>
+                <li>Switch between the <b>instrument screen and the song list</b>: START/SELECT</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="mb-4">
+        <h3>...and plenty of other improvements</h3>
+        <p class="lead">Minor adjustments to enhance the player's experience</p>
+        <ul>
+          <li>Link no longer plays the Elegy of Emptiness a second time after it's been played once. Considering it
+            needs to be played 10+ times to beat Stone Tower Temple normally, this makes the dungeon a lot less tedious.
+          </li>
+          <li>For similar reasons, the Song of Soaring is only repeated once during a play session.</li>
+          <li>The speed of Stone Tower blocks is adjusted for a more pleasant climbing experience.</li>
+          <li>Free camera mode can be used more often, notably when targeting, talking or playing the ocarina.</li>
+        </ul>
+
+        <p class="lead">Less handholding</p>
+        <ul>
+          <li>The <i>moving</i> platforms in Deku Palace and Woodfall Temple now actually always <i>move</i>.</li>
+          <li>Captain Keeta now walks as fast as in the original game, which restores the challenge of the chasing
+            mini-game.</li>
+          <li>Link can now leave the Swordman's School during training if necessary to avoid wasting time.</li>
+          <li>The Bombers will no longer distract the player from a particular cutscene just to ensure you get their
+            hints.</li>
+          <li>The new Sheikah hint stone will also no longer distract the player during an important cutscene in the
+            Clock Tower.</li>
+        </ul>
+
+        <p class="lead">For the classic experience</p>
+        <ul>
+          <li>Owl statues can be activated by striking them with a sword.</li>
+          <li>It is possible to control Goron Link rolling just like in the Nintendo 64 version: hold A and move to
+            roll, release A to stop. The classic control scheme co-exists with the new one.</li>
+        </ul>
+
+        <p class="lead">Bug fixes</p>
+        <ul>
+          <li>Fixes a game bug that caused the "heart container get" sound not to play after getting four heart pieces.
+          </li>
+          <li>Fixes a game bug that prevented the player from leaving free camera mode by targeting when Zora swimming
+            or Goron rolling.</li>
+          <li>Fixes a possible softlock during the Twinmold boss intro.</li>
+        </ul>
+      </section>
+    </section>
+
+    <section id="compatibility" class="container">
+      <h2>Compatibility</h2>
+      <p><em>Project Restoration</em> works on both real 3DS consoles (with the eShop and gamecard versions) and on the Citra emulator. While some features make use of the new ZL/ZR buttons, playing on an old 3DS is still possible.</p>
+      <p>Existing save files can be used without any issue.</p>
+      <p>Patches are provided for all versions of <em>Majora's Mask 3D</em>. However, all versions other than v1.0 (v100) will be temporarily and automatically downgraded to ensure the code patches work.</p>
+    </section>
+
+    <section id="setup" class="container">
+      <h2>Setup</h2>
+      <ol start="0">
+        <li>Download <a href="https://github.com/leoetlino/project-restoration/releases">the latest release of <em>Project Restoration</em></a> (mm3d_project_restoration_vx.x.x-xxxxxxxx.7z). Open the archive with a tool like 7-Zip.</li>
+      </ol>
+
+      <h3>1. Determine the game version</h3>
+      <p>The archive contains three folders: v100, v101 and v110. Each of them corresponds to a MM3D game version.</p>
+      <p>Because <em>Project Restoration</em> works by patching game code and injecting new code, it is essential that you figure out which MM3D version you have in order to use the appropriate patch for your situation.</p>
+      <ul>
+        <li>If you have <b>MM3D 1.1 (game card with 1.1 preinstalled)</b>, use v110.</li>
+        <li>If you have <b>MM3D 1.0 (<i>non-updated</i> eShop or <i>non-updated</i> 1.0 gamecard)</b>, use v100.</li>
+        <li>If you have <b>MM3D 1.1 (<i>updated</i> eShop or <i>updated</i> 1.0 gamecard)</b>, use v100, and <b>only</b> if it doesn't work, try v101.</li>
+      </ul>
+
+      <h3>2. Determine the game title ID</h3>
+      <p>Because the 3DS is a region-locked console, each region has its own version of <i>Majora's Mask 3D</i>, each with its own title ID.</p>
+      <ul>
+        <li>For the European release: 0004000000125600</li>
+        <li>For the American release: 0004000000125500</li>
+        <li>For the Japanese release: 00040000000D6E00</li>
+      </ul>
+      <p>In the following instructions, replace any mention of <code>TITLE_ID</code> with your game's title ID.</p>
+
+      <section>
+        <h3>3. For Citra users</h3>
+        <p>This guide assumes that you know how to use Citra. If this is not the case, refer to the <a href="https://citra-emu.org/">official website</a> for help.</p>
+        <ol start="3">
+          <li>Right click on the game in the game list and <b>select <em>Open Mods Location</em></b>.</li>
+          <li><b>Copy</b> <code>code.bps</code> to that directory.</li>
+          <li><b>Copy</b> <code>exheader.bin</code> to that directory.</li>
+        </ol>
+      </section>
+
+      <section>
+        <h3>3. For console users</h3>
+        <p>This guide assumes that you have a homebrewed 3DS with Luma3DS. If this is not the case, follow <a href="https://3ds.hacks.guide/">this guide</a> for help.</p>
+        <ol start="3">
+          <li>As of March 2020, upstream Luma3DS has a <a href="https://github.com/AuroraWright/Luma3DS/pull/1287">critical bug in the loader</a> and <a href="https://github.com/AuroraWright/Luma3DS/pull/1349">missing support for BPS patching</a>. Therefore, <b>download</b> <a href="https://github.com/leoetlino/Luma3DS/releases">this version of Luma3DS</a> and put the <code>boot.firm</code> file at the root of your SD card.</li>
+          <li><a href="https://github.com/AuroraWright/Luma3DS/wiki/Optional-features">Enable game patching in Luma's menu</a>.</li>
+          <li><b>Create</b> the /luma/titles/<code>TITLE_ID</code>/ directory on your SD card (if it doesn't already exist).</li>
+          <li><b>Copy</b> <code>code.bps</code> to that directory.</li>
+          <li><b>Copy</b> <code>exheader_legacy.bin</code> to that directory and <b>rename</b> the file to <code>exheader.bin</code>.</li>
+        </ol>
+        <p>Your SD card should look like this at the end:</p>
+        <ul class="list-unstyled">
+          <li>boot.firm</li>
+          <li><svg width="1em" height="1em" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" d="M11.828 5h3.982a2 2 0 011.992 2.181l-.637 7A2 2 0 0115.174 16H4.826a2 2 0 01-1.991-1.819l-.637-7a1.99 1.99 0 01.342-1.31L2.5 5a2 2 0 012-2h3.672a2 2 0 011.414.586l.828.828A2 2 0 0011.828 5zm-8.322.12C3.72 5.042 3.95 5 4.19 5h5.396l-.707-.707A1 1 0 008.172 4H4.5a1 1 0 00-1 .981l.006.139z" clip-rule="evenodd"></path>
+            </svg> luma
+            <ul>
+              <li><svg width="1em" height="1em" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" d="M11.828 5h3.982a2 2 0 011.992 2.181l-.637 7A2 2 0 0115.174 16H4.826a2 2 0 01-1.991-1.819l-.637-7a1.99 1.99 0 01.342-1.31L2.5 5a2 2 0 012-2h3.672a2 2 0 011.414.586l.828.828A2 2 0 0011.828 5zm-8.322.12C3.72 5.042 3.95 5 4.19 5h5.396l-.707-.707A1 1 0 008.172 4H4.5a1 1 0 00-1 .981l.006.139z" clip-rule="evenodd"></path>
+                </svg> titles/<code>TITLE_ID</code>
+                <ul>
+                  <li>code.bps</li>
+                  <li>exheader.bin</li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+
+      <h3>All done</h3>
+      <ul>
+        <li>If the patch is applied successfully, <strong>a sound effect will be played</strong> right before the title screen, before the spinning mask appears.</li>
+        <li>In order to use the new ZL/ZR buttons, <strong>the Circle Pad Pro must be enabled</strong> in MM3D's options, even if you are playing on a New 3DS.</li>
+        <li>If you want faster aiming, copy <code>code_faster_aim.bps</code> instead of copying <code>code.bps</code> and rename the patch to <code>code.bps</code>.</li>
+      </ul>
+    </section>
+
+    <section id="troubleshooting" class="container">
+      <h2>Troubleshooting</h2>
+
+      <h3>My 3DS or Citra crashes</h3>
+      <p>Delete any file you copied while following this guide and follow the instructions carefully again.</p>
+      <p>In particular, if you are playing on a 3DS, make sure that you have renamed <code>exheader_legacy.bin</code> to <code>exheader.bin</code>.</p>
+      <p>If you are absolutely sure you have followed the instructions correctly, try all three patch variants (v100/v101/v110) until one of them works.</p>
+
+      <h3>The patch isn't applied</h3>
+      <p>Make sure that you put the patch files (<code>code.bps</code> and <code>exheader.bin</code>) into the right folder. Ensure that you are the correct title ID for your game.</p>
+      <p>If you are playing on a 3DS console, check whether game patching is enabled.</p>
+    </section>
+
+    <section id="faq" class="container">
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>Is such a patch available for Ocarina of Time 3D?</h3>
+      <p>As of March 2020, <b>no</b>. While I am interested in making a QoL patch for OoT3D, unfortunately I have no time to work on such a project at the moment. But unlike its sequel, OoT3D does not urgently need a Project Restoration-style mod anyway :)</p>
+
+      <h3>Hero mode?</h3>
+      <p>Currently, I have no time to work on hero mode either. And hero mode is somewhat out of the scope of this project anyway.</p>
+
+      <h3>Restored lighting? The bright colours ruin the atmosphere!</h3>
+      <p><i>Project Restoration</i> attempts to fix what regressed in MM3D by restoring original mechanics and adding QoL improvements. I do not consider the graphical changes a regression. Even colourful games can be dark, and I'd argue that in <i>Majora's Mask</i> the unique atmosphere mostly comes from the stunning storytelling and narrative.</p>
+
+      <h3>How was this made?</h3>
+      <p>By reverse engineering the game to understand how it works (at least partially). No, I don't work at Grezzo! For more details, you're encouraged to look at the source code.</p>
+    </section>
+
+    <section id="contributing" class="container">
+      <h2>Contributing</h2>
+      <p><i>Project Restoration</i> is an <a href="https://github.com/leoetlino/project-restoration">open-source
+          project</a>. For more information about the project, including development details and rationale for some of the changes, refer to the GitHub repository. Contributions are welcome!</p>
+      <p class="text-center mt-4">
+        <a class="github-button" href="https://github.com/leoetlino/project-restoration" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star leoetlino/project-restoration on GitHub">Star</a>
+        <a class="github-button" href="https://github.com/leoetlino/project-restoration/issues" data-icon="octicon-issue-opened" data-size="large" data-show-count="true" aria-label="Issue leoetlino/project-restoration on GitHub">Issue</a>
+      </p>
+    </section>
+
+    <section class="container">
+      &copy; 2020 <a href="https://leolam.fr/">leoetlino</a> | <a href="https://github.com/leoetlino/project-restoration-site">Website repository</a>
+    </section>
+
+  </article>
+
+  <script>
+    // Piwik
+    var _paq = []; (function () {
+      _paq.push(['trackPageView']); _paq.push(['enableLinkTracking']); _paq.push(['enableHeartBeatTimer']); function r() { const u = "https://anna.zeldamods.org/"; _paq.push(['setTrackerUrl', u + 'anna']); _paq.push(['setSiteId', '2']); const d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0]; g.async = true; g.defer = true; g.src = u + 'anna.js'; s.parentNode.insertBefore(g, s); }
+      r();
+    })();
+  </script>
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+</body>
+
+</html>
