@@ -44,6 +44,10 @@ body, #main {
   padding-bottom: 3rem;
 }
 
+#main #nav {
+  overflow-x: auto;
+}
+
 a {
   color: #ba7dff !important;
   text-decoration: none;
@@ -61,7 +65,7 @@ code {
 }
 
 .masthead, .masthead-bg, .masthead-text {
-  height: 80vh;
+  height: 70vh;
   width: 100%;
 }
 
