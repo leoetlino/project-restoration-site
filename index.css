@@ -32,6 +32,11 @@ body, #main {
 #main h3 {
   font-family: CalamityB;
   font-size: 1.3rem;
+  margin-top: 2em;
+}
+
+#features h3 {
+  margin-top: 0;
 }
 
 #main > section {

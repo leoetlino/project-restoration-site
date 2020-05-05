@@ -7,7 +7,7 @@
   <meta name="description" content="Project Restoration is a patch for Majora's Mask 3D that restores mechanics from the original game and adds QoL improvements and fixes to make the game more enjoyable.">
   <link rel="stylesheet" href="assets/css/bootstrap.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="index.css?2">
+  <link rel="stylesheet" href="index.css?3">
   <title>Project Restoration - Majora's Mask 3D patch to get the best of MM and MM3D</title>
 </head>
 
@@ -40,7 +40,7 @@
 
     <section class="container">
       <p class="pt-4"><i>Project Restoration</i> is a patch for <i>Majora's Mask 3D</i> that restores some mechanics from the
-        original <i>Majora's Mask</i> and also adds quality-of-life improvements and fixes to make the game more
+        original <i>Majora's Mask</i> and adds quality-of-life improvements and fixes to make the game more
         enjoyable.
       </p>
     </section>
@@ -234,41 +234,27 @@
       </section>
     </section>
 
-    <section id="compatibility" class="container">
-      <h2>Compatibility</h2>
-      <p><em>Project Restoration</em> works on both real 3DS consoles (with the eShop and gamecard versions) and on the Citra emulator. While some features make use of the new ZL/ZR buttons, playing on an old 3DS is still possible.</p>
-      <p>Existing save files can be used without any issue.</p>
-      <p>Patches are provided for all versions of <em>Majora's Mask 3D</em>. However, all versions other than v1.0 (v100) will be temporarily and automatically downgraded to ensure the code patches work.</p>
-    </section>
-
     <section id="setup" class="container">
       <h2>Setup</h2>
-      <ol start="0">
-        <li>Download <a href="https://github.com/leoetlino/project-restoration/releases" target="_blank">the latest release of <em>Project Restoration</em></a> (mm3d_project_restoration_vx.x.x-xxxxxxxx.7z). Open the archive with a tool like 7-Zip.</li>
-      </ol>
+      <p><em>Project Restoration</em> is compatible with the 3DS and Citra and existing save files.</p>
+      <p>Patches are provided for all versions of <em>Majora's Mask 3D</em>, though all versions other than v1.0 (<code>v100</code>) will be temporarily downgraded to ensure everything works fine.</p>
 
-      <h3>1. Determine the game version</h3>
-      <p>The archive contains three folders: v100, v101 and v110. Each of them corresponds to a MM3D game version.</p>
-      <p>Because <em>Project Restoration</em> works by patching game code and injecting new code, it is essential that you figure out which MM3D version you have in order to use the appropriate patch for your situation.</p>
-      <ul>
-        <li>If you have <b>MM3D 1.1 (game card with 1.1 preinstalled)</b>, use v110.</li>
-        <li>If you have <b>MM3D 1.0 (<i>non-updated</i> eShop or <i>non-updated</i> 1.0 gamecard)</b>, use v100.</li>
-        <li>If you have <b>MM3D 1.1 (<i>updated</i> eShop or <i>updated</i> 1.0 gamecard)</b>, use v100, and <b>only</b> if it doesn't work, try v101.</li>
-      </ul>
+      <p class="text-center my-5"><a href="https://github.com/leoetlino/project-restoration/releases/download/v1.5.8/mm3d_project_restoration_v1.5.8-0-gac45fa5.7z" target="_blank" style="color: white !important" class="btn btn-lg btn-primary"><svg class="bi bi-download" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" d="M.5 8a.5.5 0 01.5.5V12a1 1 0 001 1h12a1 1 0 001-1V8.5a.5.5 0 011 0V12a2 2 0 01-2 2H2a2 2 0 01-2-2V8.5A.5.5 0 01.5 8z" clip-rule="evenodd" />
+        <path fill-rule="evenodd" d="M5 7.5a.5.5 0 01.707 0L8 9.793 10.293 7.5a.5.5 0 11.707.707l-2.646 2.647a.5.5 0 01-.708 0L5 8.207A.5.5 0 015 7.5z" clip-rule="evenodd" />
+        <path fill-rule="evenodd" d="M8 1a.5.5 0 01.5.5v8a.5.5 0 01-1 0v-8A.5.5 0 018 1z" clip-rule="evenodd" />
+      </svg>&nbsp; Download Project Restoration 1.5.8</a></p>
 
-      <h3>2. Determine the game title ID</h3>
-      <p>Because the 3DS is a region-locked console, each region has its own version of <i>Majora's Mask 3D</i>, each with its own title ID.</p>
       <ul>
-        <li>For the European release: 0004000000125600</li>
-        <li>For the American release: 0004000000125500</li>
-        <li>For the Japanese release: 00040000000D6E00</li>
+        <li>If you have MM3D 1.1 (game card with 1.1 preinstalled), open the <code>v110</code> folder in the archive you downloaded.</li>
+        <li>If you have MM3D 1.0 (<i>non-updated</i> eShop or <i>non-updated</i> 1.0 gamecard), open <code>v100</code>.</li>
+        <li>If you have MM3D 1.1 (<i>updated</i> eShop or <i>updated</i> 1.0 gamecard), use <code>v100</code>, and <b>only</b> if it doesn't work, try <code>v101</code>.</li>
       </ul>
-      <p>In the following instructions, replace any mention of <code>TITLE_ID</code> with your game's title ID.</p>
 
       <section>
-        <h3>3. For Citra users</h3>
+        <h3>For Citra users</h3>
         <p>This guide assumes that you know how to use Citra. If this is not the case, refer to the <a href="https://citra-emu.org/" target="_blank">official website</a> for help.</p>
-        <ol start="3">
+        <ol>
           <li>Right click on the game in the game list and <b>select <em>Open Mods Location</em></b>.</li>
           <li><b>Copy</b> <code>code.bps</code> to that directory.</li>
           <li><b>Copy</b> <code>exheader.bin</code> to that directory.</li>
@@ -279,36 +265,23 @@
       </section>
 
       <section>
-        <h3>3. For console users</h3>
-        <p>This guide assumes that you have a homebrewed 3DS with Luma3DS. If this is not the case, follow <a href="https://3ds.hacks.guide/" target="_blank">this guide</a> for help.</p>
-        <p>Make sure that you have Luma3DS v10.1 (or a newer version). If that isn't the case, you must <a href="https://github.com/AuroraWright/Luma3DS/releases" target="_blank">download the latest Luma3DS</a>.</p>
-        <ol start="3">
-          <li><a href="https://github.com/AuroraWright/Luma3DS/wiki/Optional-features" target="_blank">Enable game patching in Luma's menu</a>.</li>
-          <li><b>Create</b> the /luma/titles/<code>TITLE_ID</code>/ directory on your SD card (if it doesn't already exist).</li>
+        <h3>For 3DS users</h3>
+        <p>This guide assumes that you have a homebrewed 3DS with Luma3DS. If this is not the case, follow <a href="https://3ds.hacks.guide/" target="_blank">this guide</a> for help.<br>
+        Make sure that you have Luma3DS v10.1 (or a newer version). You can <a href="https://github.com/AuroraWright/Luma3DS/releases" target="_blank">download the latest Luma3DS here</a>.</p>
+        <ol>
+          <li><b>Create</b> the /luma/titles/<code>TITLE_ID</code>/ directory on your SD card (if it doesn't already exist). Replace <code>TITLE_ID</code> with:
+          <ul>
+            <li>For the European release: 0004000000125600</li>
+            <li>For the American release: 0004000000125500</li>
+            <li>For the Japanese release: 00040000000D6E00</li>
+          </ul></li>
           <li><b>Copy</b> <code>code.bps</code> to that directory.</li>
           <li><b>Copy</b> <code>exheader_legacy.bin</code> to that directory and <b>rename</b> the file to <code>exheader.bin</code>.</li>
+          <li><a href="https://github.com/AuroraWright/Luma3DS/wiki/Optional-features" target="_blank">Enable game patching in Luma's menu</a>.</li>
         </ol>
-        <p>Your SD card should look like this at the end:</p>
-        <ul class="list-unstyled">
-          <li>boot.firm</li>
-          <li><svg width="1em" height="1em" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-              <path fill-rule="evenodd" d="M11.828 5h3.982a2 2 0 011.992 2.181l-.637 7A2 2 0 0115.174 16H4.826a2 2 0 01-1.991-1.819l-.637-7a1.99 1.99 0 01.342-1.31L2.5 5a2 2 0 012-2h3.672a2 2 0 011.414.586l.828.828A2 2 0 0011.828 5zm-8.322.12C3.72 5.042 3.95 5 4.19 5h5.396l-.707-.707A1 1 0 008.172 4H4.5a1 1 0 00-1 .981l.006.139z" clip-rule="evenodd"></path>
-            </svg> luma
-            <ul>
-              <li><svg width="1em" height="1em" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                  <path fill-rule="evenodd" d="M11.828 5h3.982a2 2 0 011.992 2.181l-.637 7A2 2 0 0115.174 16H4.826a2 2 0 01-1.991-1.819l-.637-7a1.99 1.99 0 01.342-1.31L2.5 5a2 2 0 012-2h3.672a2 2 0 011.414.586l.828.828A2 2 0 0011.828 5zm-8.322.12C3.72 5.042 3.95 5 4.19 5h5.396l-.707-.707A1 1 0 008.172 4H4.5a1 1 0 00-1 .981l.006.139z" clip-rule="evenodd"></path>
-                </svg> titles/<code>TITLE_ID</code>
-                <ul>
-                  <li>code.bps</li>
-                  <li>exheader.bin</li>
-                </ul>
-              </li>
-            </ul>
-          </li>
-        </ul>
       </section>
 
-      <h3>All done</h3>
+      <h3>That's it!</h3>
       <ul>
         <li>If the patch is applied successfully, <strong>a sound effect will be played</strong> right before the title screen, before the spinning mask appears. You can also tell if the patch was applied by checking whether START opens the Bomber's Notebook (if you have it) and SELECT opens the Items menu.</li>
         <li>In order to use the new ZL/ZR buttons, <strong>the Circle Pad Pro must be enabled</strong> in MM3D's options, even if you are playing on a New 3DS.</li>
