@@ -43,24 +43,27 @@
 
     <section id="setup" class="container">
       <h2>Setup</h2>
-      <ol>
-        <li><b>Follow the <a href="/#setup">setup instructions</a></b> for <i>Project Restoration</i>, even if you've already set it up.
-          <ul>
-            <li>For step 0, <a href="https://zora.re/dl/mm3d_project_restoration_v1.5.8-5-g726562d.7z">download this archive</a> instead.</li>
-            <li>The HD HUD mod uses a special version of <i>Project Restoration</i> that is based on its latest version (1.5.8) and has exactly the same features.</li>
-          </ul>
-        </li>
-        <li>Right click on the game in the Citra game list and <b>select <i>Open Mods Location</i></b>.</li>
-        <li><b>Download and extract</b> <a href="https://zora.re/dl/mm3d_big_screen_layout_36fb136.7z">the layout archive</a> there (with a tool like 7-Zip).
-          <ul>
-            <li>For Xbox controller users, <a href="https://zora.re/dl/mm3d_big_screen_layout_08187dd.7z">use this archive</a> instead.</li>
-          </ul>
-        </li>
-        <li>Right click on the game in the Citra game list and <b>select <i>Open Custom Texture Location</i></b>.</li>
-        <li><b>Download</b> this <a href="https://zora.re/dl/tex1_512x256_E2CEBCB19DA2608F_13.png">texture</a> and put it there.</li>
-        <li><b>Enable custom textures</b> in Citra (Emulation → Configure... → Graphics → Use Custom Textures).</li>
-      </ol>
-      <p>Optional but highly recommended: <a href="https://zora.re/dl/mm3d_hd_textures_20200428.7z">download this HD texture pack</a> and extract it in the Custom Texture Location. The textures come from the <a href="https://github.com/DeathWrench/MM3DHD">MM3DHD</a> project and currently cover almost all of the game menus and Link's forms!</p>
+      <p>This guide assumes you have already set up the normal version of Project Restoration. If that isn't the case, refer to the <a href="/#setup">setup instructions</a>.</p>
+
+      <h3>Step 1</h3>
+      <p>Right click on the game in the Citra game list and <b>select <i>Open Mods Location</i></b>.</p>
+      <p>Download the following version of Project Restoration and open the archive with a tool like 7-Zip. Open the folder that corresponds to your game version (v100/v101/v110).<br>
+      Copy <code>code.bps</code> and <code>exheader.bin</code> to the Mods Location for MM3D. Overwrite any existing file.</p>
+      <p class="text-center"><a href="https://zora.re/dl/mm3d_project_restoration_v1.5.8-5-g726562d.7z" target="_blank" style="color: white !important" class="btn btn-lg btn-primary"><svg class="bi bi-download" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M.5 8a.5.5 0 01.5.5V12a1 1 0 001 1h12a1 1 0 001-1V8.5a.5.5 0 011 0V12a2 2 0 01-2 2H2a2 2 0 01-2-2V8.5A.5.5 0 01.5 8z" clip-rule="evenodd" />
+            <path fill-rule="evenodd" d="M5 7.5a.5.5 0 01.707 0L8 9.793 10.293 7.5a.5.5 0 11.707.707l-2.646 2.647a.5.5 0 01-.708 0L5 8.207A.5.5 0 015 7.5z" clip-rule="evenodd" />
+            <path fill-rule="evenodd" d="M8 1a.5.5 0 01.5.5v8a.5.5 0 01-1 0v-8A.5.5 0 018 1z" clip-rule="evenodd" />
+          </svg>&nbsp; Download Project Restoration 1.5.8 (HD HUD build)</a></p>
+
+      <h3>Step 2</h3>
+      <p><b>Download and extract</b> <a target="_blank" href="https://zora.re/dl/mm3d_big_screen_layout_36fb136.7z">the layout archive</a> (or <a target="_blank" href="https://zora.re/dl/mm3d_big_screen_layout_08187dd.7z">this one</a> for Xbox controller users) in the Mods Location. Copy the <code>romfs</code> folder itself to the Mods Location.</p>
+      <p>If you've followed the instructions correctly, you should see <code>code.bps</code>, <code>exheader.bin</code> and <code>romfs</code> (folder) in the Mods Location.</p>
+
+      <h3>Step 3</h3>
+      <p>Right click on the game in the Citra game list and <b>select <i>Open Custom Texture Location</i></b>.</p>
+      <p><b>Download</b> this <a target="_blank" href="https://zora.re/dl/tex1_512x256_E2CEBCB19DA2608F_13.png">texture</a> and put it there.</p>
+      <p><b>Enable custom textures</b> in Citra (Emulation → Configure... → Graphics → Use Custom Textures).</p>
+      <p>Optional but highly recommended: <a target="_blank" href="https://zora.re/dl/mm3d_hd_textures_20200428.7z">download this HD texture pack</a> and extract it in the Custom Texture Location. The textures come from the <a href="https://github.com/DeathWrench/MM3DHD">MM3DHD</a> project and currently cover almost all of the game menus and Link's forms!</p>
     </section>
 
   </article>
