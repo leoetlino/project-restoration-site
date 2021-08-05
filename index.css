@@ -136,3 +136,22 @@ code {
     font-size: 3rem;
   }
 }
+
+.banner {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    -webkit-transform: translate(-50%);
+    transform: translate(-50%);
+    z-index: 1000;
+    background-color: rgba(1,21,31,.88);
+    border: 0;
+    padding: 10px 20px;
+    font-family: Roboto,sans-serif;
+    color: #fff;
+    text-align: center;
+}
+
+.banner a {
+    color: #29d1fc !important;
+}
